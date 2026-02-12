@@ -28,7 +28,7 @@ Rscript scripts/02_make_figures.R
 
 ### Reverse-Engineering Process
 
-I started by feeding the figure descriptions from the assignment into the Cursor AI agent and asking it to generate an initial version of each figure. Cursor Agent generated both PDFs from the Gapminder data (including a small install_if_missing() helper and a weighted_median() function for the ribbon plot). After that, I compared the generated plots to the target figures in detail, checking things like the axis scales and labels, the use of color, the layout of the plots, and where legends and lines appeared.I tested the code by running the script and comparing the output to the original figures, making small adjustments until the replicated figures matched the main features of the originals.
+I started by feeding the figure descriptions from the assignment into the Cursor AI agent and asking it to generate an initial version of each figure. Cursor Agent generated both PDFs from the Gapminder data (including a small install_if_missing() helper and a weighted_median() function for the ribbon plot). After that, I compared the generated plots to the target figures in detail, checking things like the axis scales and labels, the use of color, the layout of the plots, and where legends and lines appeared. I tested the code by running the script and comparing the output to the original figures, making small adjustments until the replicated figures matched the main features of the originals.
 
 ### AI Usage
 
